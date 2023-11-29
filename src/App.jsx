@@ -4,7 +4,7 @@ import Section from './Section.jsx'
 import Footer from './Footer.jsx'
 
 function App() {
- 
+    // Creating states to set count  // 
   const[count ,setcount] = useState(0)
  
   return (
@@ -93,9 +93,11 @@ function App() {
 
        </div> 
        </div>
-       </header>
-  <Section count= {count} setcount={setcount}/>
-  <Footer />
+       </header>    
+       {/*Calling Section Component and Sending Props to Set Count to the Component */}
+     <Section count= {count} setcount={setcount}/>
+      {/* Calling Created Footer Component */}
+     <Footer />
 </>
     
     
