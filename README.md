@@ -1,3 +1,6 @@
+DEPLOYED C ❤️ KarT  : https://guvi-task-14-react-add-cart-9pd4.vercel.app/#
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
